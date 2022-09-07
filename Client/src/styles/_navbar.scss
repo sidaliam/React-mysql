@@ -1,0 +1,39 @@
+.Navbar{
+display: flex;
+align-items: center;
+position: relative;
+  input[type="submit"]{
+    color: white;
+  }
+  input{
+    border: 0px;
+  }
+  .Notif-bell{
+    margin-right: 60%;
+    margin-left: 2%;
+    cursor: pointer;
+
+   }
+   .search-button{
+    cursor: pointer;
+   }
+   span{
+    margin-left: 2% ;
+    background: $color2;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    text-transform: uppercase;
+    box-shadow: $shadow;
+    color: white;
+    cursor: pointer;
+   }
+
+
+
+
+
+}
